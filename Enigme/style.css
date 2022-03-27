@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;0,700;1,400;1,500&display=swap');
+
+body {
+  margin: 0;
+  background-color: #AF7AC5  ;
+  font-family: Ubuntu, sans-serif;
+}
+
+header {
+  height: 30vh;
+  background-color: #9B59B6  ;
+  background-position: top;
+background-size: cover;
+display: flex;
+flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  color: #6C3483;
+  font-size: 5rem;
+  transition: all 0.8s,
+
+}
+
+#text {
+  margin-top: 5%;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 1.2rem;
+  color: #D7BDE2 ;
+}
+
+#im {
+  text-align: center;
+}
+
+#im img {
+  width : 50%;
+  border-radius: 50px;
+  }
+
+#rep{
+  margin-top: 5%;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+#rep1 {
+border-radius: 5px;
+background-color:#D7BDE2;
+color: #9B59B6 ;
+font-size: 2rem;
+border:1px;
+font-weight: bold;
+}
+
+#bouton {
+  border-radius: 5px;
+  font-size: 2rem;
+  border:1px;
+  font-weight: bold;
+  background-color:#6C3483;
+  color:#D7BDE2;
+}
+
+
+
+footer {
+  margin-top: 10%;
+  background-color: #9B59B6 ;
+  padding: 2rem;
+}
+
+#footer {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 2rem;
+}
+
+
+.icon {
+  display: block;
+  width: 4rem;
+  height: 4rem;
+  color: #D7BDE2;
+  transition: transform 0.7s, color 0.3s;
+}
+
+.icon:hover {
+  transform: scale(2) rotate(360deg);
+  }
+
+.facebook:hover {
+  color: #6C3483;
+}
+
+.instagram:hover {
+  color: #6C3483;
+}
+
+.youtube:hover {
+  color: #6C3483;
+}
+
+.twitter:hover {
+  color: #6C3483;
+}
+
+
+@media (max-width: 600px) {
+  #rep {
+    font-size: 1.5rem;
+  }
+  #rep input{
+    font-size: 1.2rem;
+  }
+  header {
+    height: 20vh;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  #text {
+    margin-top: 15%;
+    font-size: 0.7rem;
+  }
+  #im img {
+    width : 70%;
+    margin-top: 5%;
+    }
+    li {
+      margin: 0.8rem;
+    }
+    footer {
+      margin-top: 20%;
+      }
+}
